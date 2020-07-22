@@ -12,6 +12,7 @@ var resultado;
 
 // replace
 //resultado = mensaje.replace("JavaScript", "a programar");
+//devuelve el resultado modificado pero no afecta el valor orgininal
 
 
 // slice
@@ -21,8 +22,11 @@ var resultado;
 
 // split
 // resultado = mensaje.split(" ");
+/*transforma la cadena de texto en un array
+dividido por el caracter que le enviemos*/
 
 // trim
 resultado = mensaje.trim();
+//elimina los espacios en blanco que estan antes o despues de la cadena
 
 console.log(resultado);
