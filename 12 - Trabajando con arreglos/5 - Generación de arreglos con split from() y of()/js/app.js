@@ -9,6 +9,7 @@
 // var mensaje = "ceviche, tacos, pasta";
 
 // var platillos = mensaje.split(', ');
+//permite pasar de cadena de texto a arreglo
 
 //--- Array.from();
 var platillosHTML = Array.from(document.querySelectorAll('.platillos p'))
