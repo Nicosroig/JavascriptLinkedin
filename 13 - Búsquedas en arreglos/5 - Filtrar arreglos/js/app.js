@@ -1,6 +1,5 @@
 "use strict"
 
-//********************************
 //*** Filtrar arreglos
 
 var menu = [{
@@ -27,10 +26,7 @@ var menu = [{
 
 var resultado = null;
 
-
 //resultado =  menu.find(platillo => platillo.pais == 'México');
-
-
 resultado =  menu.filter(platillo => platillo.pais == 'México');
-
+//filter devuelve todas las incidencias encontradas
 console.log(resultado);

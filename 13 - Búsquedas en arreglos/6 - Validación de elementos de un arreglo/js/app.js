@@ -1,6 +1,5 @@
 "use strict"
 
-//********************************
 //*** Validación de elementos de un arreglo
 
 var resultado = null;
@@ -26,8 +25,6 @@ var menu = [{
         pais: 'México'
     }
 ]
-
-
 //resultado = menu.some( platillo => platillo.precio <= 10);
 //console.log('¿Hay platillos abajo de 20? ', resultado);
 
